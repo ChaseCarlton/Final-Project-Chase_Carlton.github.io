@@ -1,7 +1,5 @@
 
-const apiUrl = "https://api.weather.gov/gridpoints/CAE/65,52/forecast" // Replace 'CAE/63,53' with the desired grid point for your location
-
-
+const apiUrl = "https://api.weather.gov/gridpoints/CAE/65,52/forecast" 
 fetch(apiUrl)
     .then(response => {
         if (!response.ok) {
