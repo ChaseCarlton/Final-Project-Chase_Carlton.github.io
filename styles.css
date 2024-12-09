@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: black;
+    background-color: #f9f9f9;
+          
+}
+
+h1, h2, h3 {
+    margin: 10px 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#nav {
+    background-color: #9b59b6; 
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+#navigation a {
+    margin: 0 15px;
+    color: white;
+    font-weight: bold;
+}
+
+#header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#header-title {
+    font-size: 2.5em;
+}
+
+#charity-image, #map {
+    max-width: 70%;
+    text-align: center;
+    margin: 20px 0;
+    align-content: center;
+}
+
+#charity-picture, #map-image {
+    max-width: 90%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#main-description, #charity-description, #requirements, #search-options {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 800px;
+    border-radius: 10px;
+}
+
+#requirements-title, #search-title {
+    font-size: 1.8em;
+    color: #9b59b6;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+#charity-options {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+}
+
+#charity-options div {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#sign-up-section {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#sign-up-section h3 {
+    margin: 10px 0;
+}
+
+#sign-up-button {
+    background-color: #9b59b6; 
+    color: white;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+#footer-text {
+    margin: 0;
+}
+
+#iomn {    
+    align-content: center;
+    margin-left: 400px;
+  }
+
+  #hover-message {
+    display: none;
+    font-size: 14px;
+    color: #ff6347;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    #charity-options {
+        text-align: center;
+    }
+
+    #navigation a {
+        display: block;
+        margin: 10px 0;
+    }
+}
